@@ -1,0 +1,35 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Open Sans", sans-serif; https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap;
+  background-color: #fff795;
+}  
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #eebece;
+  text-shadow: 3px 3px 1px black; /* first value is horizontal offset (how far it moves across), second value is vertical offset (how far it moves down), third pixel is the blur radius of the shadow (the larger the more fuzzy looking shadow), fourth value is the base colour of shadow) */
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px; /* forces the body to always be 600 px wide*/
+  margin: 0 auto; /*auto is a special value that divides the available horizontal space evenly */
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px; /* values set top, right, bottom, left in this order, clockwise */
+  border: 5px solid black; /* this sets value for the width, style and color of the order in this order */
+}
+
+img {
+  display: block; /* this is an inline element so you can't do auto margin, you have to give it block-level behaviour by adding this line */
+  margin: 0 auto;
+}
+
